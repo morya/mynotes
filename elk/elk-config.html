@@ -1,0 +1,458 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ELK配置汇总 · mynotes</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="morya">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../crypto/java的各种加密算法.html">
+            
+                <a href="../crypto/java的各种加密算法.html">
+            
+                    
+                    Java中的各种加密算法 BASE64 MD5 SHA HMAC DES PBE RSA DH DSA ECC
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    OS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                    ubuntu
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../mac系统制作ubuntu启动盘.html">
+            
+                <a href="../mac系统制作ubuntu启动盘.html">
+            
+                    
+                    mac系统制作ubuntu启动盘
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    DevOps工具
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    gitlab
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../devops/gitlab/install-gitlab-on-ubuntu.md">
+            
+                <span>
+            
+                    
+                    ubuntu 14 安装gitlab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../devops/gitlab/backup-and-restore.html">
+            
+                <a href="../devops/gitlab/backup-and-restore.html">
+            
+                    
+                    gitlab-backup-and-restore 备份和恢复
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                    ELK
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.2.1" data-path="elk-config.html">
+            
+                <a href="elk-config.html">
+            
+                    
+                    ELK配置汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >ELK配置汇总</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#1-&#x914D;&#x7F6E;elk"><b>1. </b>&#x914D;&#x7F6E;ELK</a></li><ul><li><span class="title-icon "></span><a href="#11-versions"><b>1.1. </b>versions</a></li><li><span class="title-icon "></span><a href="#12-&#x5B89;&#x88C5;&#x548C;&#x914D;&#x7F6E;"><b>1.2. </b>&#x5B89;&#x88C5;&#x548C;&#x914D;&#x7F6E;</a></li><ul><li><span class="title-icon "></span><a href="#121-elasticsearch"><b>1.2.1. </b>elasticsearch</a></li></ul></ul><li><span class="title-icon "></span><a href="#2-useful-links"><b>2. </b>useful links</a></li></ul></div><a href="#1-&#x914D;&#x7F6E;elk" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="1-&#x914D;&#x7F6E;elk"><a name="1-&#x914D;&#x7F6E;elk" class="anchor-navigation-ex-anchor" href="#1-&#x914D;&#x7F6E;elk"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x914D;&#x7F6E;ELK</h1>
+<p>&#x5FC3;&#x8840;&#x6765;&#x6F6E;&#x60F3;&#x8981;&#x62FF;ELK&#x505A;&#x516C;&#x53F8;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x7684;&#x6570;&#x636E;&#x53EF;&#x89C6;&#x5316;&#x3002;</p>
+<p>&#x628A;&#x914D;&#x7F6E;&#x7B14;&#x8BB0;&#x7559;&#x5B58;&#x5982;&#x4E0B;&#x3002;</p>
+<h2 id="11-versions"><a name="11-versions" class="anchor-navigation-ex-anchor" href="#11-versions"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. versions</h2>
+<ul>
+<li>elasticsearch 2.4.6<ul>
+<li>elasticseach plugin Kopf</li>
+</ul>
+</li>
+<li>logstash 2.4.6</li>
+<li>kibana 4.x</li>
+<li>oracle JDK java 1.8.x</li>
+</ul>
+<h2 id="12-&#x5B89;&#x88C5;&#x548C;&#x914D;&#x7F6E;"><a name="12-&#x5B89;&#x88C5;&#x548C;&#x914D;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#12-&#x5B89;&#x88C5;&#x548C;&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x5B89;&#x88C5;&#x548C;&#x914D;&#x7F6E;</h2>
+<h3 id="121-elasticsearch"><a name="121-elasticsearch" class="anchor-navigation-ex-anchor" href="#121-elasticsearch"><i class="fa fa-link" aria-hidden="true"></i></a>1.2.1. elasticsearch</h3>
+<p><a href="https://www.elastic.co/downloads/past-releases" target="_blank">&#x4E0B;&#x8F7D;</a></p>
+<p>&#x300A;Elasticsearch: &#x6743;&#x5A01;&#x6307;&#x5357;&#x300B;</p>
+<p><a href="https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/running-elasticsearch.html" target="_blank">&#x5B89;&#x88C5;&#x5E76;&#x8FD0;&#x884C; Elasticsearch</a></p>
+<pre><code class="lang-shell">$ tar zxf elasticsearch-2.4.6.tar.gz
+</code></pre>
+<h4 id="&#x5173;&#x952E;&#x914D;&#x7F6E;"><a name="&#x5173;&#x952E;&#x914D;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#&#x5173;&#x952E;&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5173;&#x952E;&#x914D;&#x7F6E;</h4>
+<pre><code class="lang-shell">export ES_HEAP_SIZE=2G
+</code></pre>
+<pre><code class="lang-yaml">cluster.name=product
+</code></pre>
+<h1 id="2-useful-links"><a name="2-useful-links" class="anchor-navigation-ex-anchor" href="#2-useful-links"><i class="fa fa-link" aria-hidden="true"></i></a>2. useful links</h1>
+<ul>
+<li><a href="https://www.gitbook.com/book/chenryn/elk-stack-guide-cn/details" target="_blank">ELKstack &#x4E2D;&#x6587;&#x6307;&#x5357;</a></li>
+<li><a href="http://git.toplinkhoo.com/elk" target="_blank">ELK notes</a></li>
+<li><a href="">Elasticsearch template</a></li>
+<li><a href="https://segmentfault.com/a/1190000011632082" target="_blank">&#x4ECE;ELK&#x5230;EFK by &#x6625;&#x590F;&#x79CB;&#x51AC;&#x8FC7;</a></li>
+</ul>
+<h4 id="support-matrix--elastic-stack&#x7248;&#x672C;&#x5339;&#x914D;&#x8868;"><a name="support-matrix--elastic-stack&#x7248;&#x672C;&#x5339;&#x914D;&#x8868;" class="anchor-navigation-ex-anchor" href="#support-matrix--elastic-stack&#x7248;&#x672C;&#x5339;&#x914D;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a>Support Matrix / elastic stack&#x7248;&#x672C;&#x5339;&#x914D;&#x8868;</h4>
+<h4 id="&#x64CD;&#x4F5C;-elasticsearch-template-&#x811A;&#x672C;"><a name="&#x64CD;&#x4F5C;-elasticsearch-template-&#x811A;&#x672C;" class="anchor-navigation-ex-anchor" href="#&#x64CD;&#x4F5C;-elasticsearch-template-&#x811A;&#x672C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x64CD;&#x4F5C; elasticsearch template &#x811A;&#x672C;</h4>
+<p><strong>&#x6DFB;&#x52A0;&#x6A21;&#x677F;</strong></p>
+<pre><code class="lang-shell">$ curl -XPUT http://localhost:9200/_template/logstash -d &apos;
+{
+   &quot;name&quot;:&quot;logstash&quot;,
+   &quot;&quot;:...
+}
+&apos;
+</code></pre>
+<p><strong>&#x67E5;&#x8BE2;&#x6A21;&#x677F;</strong></p>
+<pre><code class="lang-shell">$ curl -XGET http://localhost:9200/_template
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ELK配置汇总","level":"1.4.2.1","depth":3,"previous":{"title":"ELK","level":"1.4.2","depth":2,"ref":"","articles":[{"title":"ELK配置汇总","level":"1.4.2.1","depth":3,"path":"elk/elk-config.md","ref":"elk/elk-config.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex","new-flowchart","sequence"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sequence":{"theme":"simple"},"new-flowchart":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"showLevel":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"morya","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"mynotes","links":{"sidebar":{}},"gitbook":"*"},"file":{"path":"elk/elk-config.md","mtime":"2017-11-27T15:41:45.723Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-11-27T15:42:49.870Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src='/gitbook/gitbook-plugin-new-flowchart/raphael-min.js'></script>
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-new-flowchart/flowchart-1.6.2.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-new-flowchart/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+
+    </body>
+</html>
+
